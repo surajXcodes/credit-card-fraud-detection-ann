@@ -1,25 +1,36 @@
-Credit Card Fraud Detection using Artificial Neural Network (ANN)
+# Credit Card Fraud Detection using Artificial Neural Network (ANN)
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://your-app-link.streamlit.app)
+
+---
+
+## 📊 Dataset
 
 Dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Download creditcard.csv and place it inside the **data** folder before running the project.
+Download **creditcard.csv** and place it inside the **data** folder before running the project.
 
- 📌 Project Overview
+---
 
-This project builds a Credit Card Fraud Detection System** using an Artificial Neural Network (ANN).
-The model analyzes transaction features and predicts whether a transaction is fraudulent or genuine.
+## 📌 Project Overview
+
+This project builds a **Credit Card Fraud Detection System** using an **Artificial Neural Network (ANN)**.
+The model analyzes transaction features and predicts whether a transaction is **fraudulent or genuine**.
 
 Credit card fraud is a major problem in financial systems. Machine learning models help detect suspicious transactions and prevent financial loss.
 
+---
 
-🎯 Objective
+## 🎯 Objective
 
 * Detect fraudulent credit card transactions
 * Build and train an Artificial Neural Network model
 * Handle imbalanced datasets using class weights
 * Evaluate the model using confusion matrix and classification metrics
 
-Tools & Technologies Used
+---
+
+## 🛠 Tools & Technologies Used
 
 * Python
 * Pandas
@@ -30,8 +41,11 @@ Tools & Technologies Used
 * Seaborn
 * Streamlit
 
-Project Structure
+---
 
+## 📂 Project Structure
+
+```
 credit-card-fraud-detection-ann
 │
 ├── models
@@ -45,8 +59,11 @@ credit-card-fraud-detection-ann
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
-Installation
+---
+
+## ⚙️ Installation
 
 Install dependencies:
 
@@ -76,9 +93,15 @@ python src/evaluate.py
 streamlit run app.py
 ```
 
+Then open in browser:
+
+```
+http://localhost:8501
+```
+
 ---
 
-## 📊 Model Performance
+## 📈 Model Performance
 
 Example Output:
 
@@ -107,7 +130,8 @@ Confusion Matrix:
 
 ## 👨‍💻 Author
 
-Suraj Kumar
+**Suraj Kumar**
 B.Tech Computer Science Engineering
 Project: Credit Card Fraud Detection using ANN
+
 
