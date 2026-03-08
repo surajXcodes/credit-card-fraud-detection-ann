@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Credit Card Fraud Detection using Artificial Neural Network (ANN)
 
 ## 📌 Project Overview
@@ -159,3 +160,6 @@ B.Tech Computer Science Engineering
 Project: Credit Card Fraud Detection using ANN
 
 ---
+=======
+# credit-card-fraud-detection-ann
+>>>>>>> 2db6f62a17fa53680c194d413fc598ca8457e915
