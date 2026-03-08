@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 # Credit Card Fraud Detection using Artificial Neural Network (ANN)
 
+Dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Download creditcard.csv and place it inside the data folder before running the project.
+
 ## 📌 Project Overview
 
 This project builds a **Credit Card Fraud Detection System** using an **Artificial Neural Network (ANN)**.
