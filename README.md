@@ -1,49 +1,38 @@
-<<<<<<< HEAD
-# Credit Card Fraud Detection using Artificial Neural Network (ANN)
+Credit Card Fraud Detection using Artificial Neural Network (ANN)
 
 Dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Download creditcard.csv and place it inside the data folder before running the project.
+Download creditcard.csv and place it inside the **data** folder before running the project.
 
-## 📌 Project Overview
+ 📌 Project Overview
 
-This project builds a **Credit Card Fraud Detection System** using an **Artificial Neural Network (ANN)**.
-The model analyzes transaction features and predicts whether a transaction is **fraudulent or genuine**.
+This project builds a Credit Card Fraud Detection System** using an Artificial Neural Network (ANN).
+The model analyzes transaction features and predicts whether a transaction is fraudulent or genuine.
 
-Credit card fraud is a major problem in financial systems. Machine learning models can help detect suspicious transactions and prevent financial loss.
+Credit card fraud is a major problem in financial systems. Machine learning models help detect suspicious transactions and prevent financial loss.
 
----
 
-## 🎯 Objective
-
-The objective of this project is to:
+🎯 Objective
 
 * Detect fraudulent credit card transactions
 * Build and train an Artificial Neural Network model
 * Handle imbalanced datasets using class weights
 * Evaluate the model using confusion matrix and classification metrics
 
----
+Tools & Technologies Used
 
-## 🛠 Tools & Technologies Used
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* TensorFlow / Keras
+* Matplotlib
+* Seaborn
+* Streamlit
 
-* **Python**
-* **Pandas**
-* **NumPy**
-* **Scikit-learn**
-* **TensorFlow / Keras**
-* **Matplotlib**
-* **Seaborn**
+Project Structure
 
----
-
-## 📂 Project Structure
-
-```
-CreditCard_Fraud_Detection
-│
-├── data
-│   └── creditcard.csv
+credit-card-fraud-detection-ann
 │
 ├── models
 │   └── ann_model.h5
@@ -52,37 +41,14 @@ CreditCard_Fraud_Detection
 │   ├── preprocess.py
 │   ├── train.py
 │   ├── evaluate.py
-│   └── predict.py
 │
+├── app.py
 ├── requirements.txt
 └── README.md
-```
 
----
+Installation
 
-## 📊 Dataset
-
-The dataset used for this project is the **Credit Card Fraud Detection Dataset**.
-
-It contains transactions made by credit cards in September 2013 by European cardholders.
-
-Features include:
-
-* **V1 – V28:** PCA transformed features
-* **Time**
-* **Amount**
-* **Class**
-
-  * 0 → Genuine transaction
-  * 1 → Fraudulent transaction
-
----
-
-## ⚙️ Installation
-
-1. Clone the repository or download the project.
-
-2. Install required libraries:
+Install dependencies:
 
 ```
 pip install -r requirements.txt
@@ -90,33 +56,29 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run the Project
+## ▶️ Run the Project
 
-### Step 1: Train the Model
+### Train Model
 
 ```
 python src/train.py
 ```
 
-This will train the ANN model and save it in the **models** folder.
-
----
-
-### Step 2: Evaluate the Model
+### Evaluate Model
 
 ```
 python src/evaluate.py
 ```
 
-This will display:
+### Run Web App
 
-* Confusion Matrix
-* Classification Report
-* Model performance metrics
+```
+streamlit run app.py
+```
 
 ---
 
-## 📈 Model Performance
+## 📊 Model Performance
 
 Example Output:
 
@@ -128,42 +90,24 @@ Confusion Matrix:
 
 ### Key Metrics
 
-* **Accuracy:** ~98%
-* **Fraud Recall:** ~90%
-* **Precision Improved Using Threshold Tuning**
-
-Threshold tuning was applied to reduce false positives while maintaining high fraud detection recall.
-
----
-
-## 🧠 Machine Learning Approach
-
-1. Data preprocessing
-2. Feature scaling
-3. Train-test split
-4. ANN model training
-5. Handling class imbalance using class weights
-6. Model evaluation using classification metrics
+* Accuracy ≈ 98%
+* Fraud Recall ≈ 90%
+* ROC AUC ≈ 0.98
 
 ---
 
 ## 🚀 Future Improvements
 
-* Implement **ROC Curve visualization**
-* Build **Streamlit Web App Interface**
-* Deploy the model as an **API**
-* Improve precision using advanced techniques like **SMOTE**
+* ROC Curve visualization
+* Streamlit UI enhancements
+* Deploy as API
+* Improve fraud detection using SMOTE
 
 ---
 
 ## 👨‍💻 Author
 
-**Suraj Kumar**
-
+Suraj Kumar
 B.Tech Computer Science Engineering
 Project: Credit Card Fraud Detection using ANN
 
----
-=======
-# credit-card-fraud-detection-ann
->>>>>>> 2db6f62a17fa53680c194d413fc598ca8457e915
